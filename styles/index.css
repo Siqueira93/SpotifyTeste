@@ -1,0 +1,15 @@
+@font-face {
+    font-family: gotham;
+    src: url(../layout/Fonte/GothamMedium_1.ttf);
+}
+
+nav a{
+    color: white;
+}
+body{
+    font-family: gotham;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9920343137254902) 0%, rgba(44,0,69,1) 51%, rgba(162,0,255,1) 100%);
+    color: white;
+}
+
