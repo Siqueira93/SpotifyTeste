@@ -13,3 +13,8 @@ body{
     color: white;
 }
 
+.fixed-modal {
+    position: relative;
+    top: auto;
+    left: 0;
+}
