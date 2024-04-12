@@ -24,7 +24,6 @@ body{
 .nav-link.active:hover{
     color: #ffffff;
     font-size: large;
-    ;
 }
 
 .nav-link:hover {
@@ -33,9 +32,6 @@ body{
 
 }
 
-#Albuns {
-    padding-left: 200px;
-}
 
 .offcanvas-start {
     background: rgb(0,0,0);
