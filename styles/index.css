@@ -3,9 +3,6 @@
     src: url(../layout/Fonte/GothamMedium_1.ttf);
 }
 
-nav a{
-    color: white;
-}
 body{
     font-family: gotham;
     background: rgb(0,0,0);
@@ -13,8 +10,50 @@ body{
     color: white;
 }
 
+
+
 .fixed-modal {
     position: relative;
     top: auto;
     left: 0;
+}
+
+.navbar-nav .nav-link.active, .nav-link {
+    color: #ffffffb2;
+}
+.nav-link.active:hover{
+    color: #ffffff;
+    font-size: large;
+    ;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    font-size: large;
+
+}
+
+#Albuns {
+    padding-left: 200px;
+}
+
+.offcanvas-start {
+    background: rgb(0,0,0);
+}
+
+.playerMusic{
+    background-color: black; 
+    display: flex;
+
+}
+
+#imageMusic img {
+    height: 80px;
+}
+
+hr{
+    color: #ffffff;
+}
+#iconesPLAYERmini img{
+    gap:50px;
 }

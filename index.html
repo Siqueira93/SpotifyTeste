@@ -11,20 +11,22 @@
 <body>
     
     <header>
-        <!-- navbar -->
+        <!-- navbar GERAL-->
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <!-- ACRESCENTAR O   -----------MODAL--------------       -->
-                  <!-- <img src="layout/Logo/spotify-logo.svg" class="" alt=""> -->
-              </a>
+              <!-- BOTÃO OFF CANVAS selecionado pela parte do DATA-BS-TARGET="#offcanvasScrolling"  -->
+              <button class="btn navbar-brand" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <img src="layout/Logo/spotify-logo.svg" alt="">
+              </button>
+              <!-- RESPONSIVIDADE HAMBURGUINHO -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <!-- MENU PARA SITE -->
               <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">FEATURED</a>
+                    <a class="nav-link active " aria-current="page" href="#">FEATURED</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">GENRES & MOODS</a>
@@ -40,10 +42,8 @@
             </div>
           </nav>
 
-          <aside class="fixed-modal">
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-              <img src="layout/Logo/spotify-logo.svg" alt="">
-            </button>
+          <!-- OFF CANVAS -->
+          <aside>
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
@@ -54,19 +54,19 @@
               </div>
             </div>
           </aside>
+          <!-- END OFF CANVAS -->
     </header>
 
     <main>
         
         <!-- box images 6 / 6 -->
-         
         <section id="Albuns" class="text-center container-fluid d-flex align-items-center justify-content-center" >
-            <div class="container row my-3 gap-3" id="CaixasAlbuns">
-                <h2>Winding down</h2>
+            <div class="container row my-3 gap-4" id="CaixasAlbuns">
+               <h2 class="fw-bold">Winding down</h2>
                 <!-- col - colunas -->
                 <!-- por padrão o BOOTSTRAP divide a pagina em 12 colunas -->
                 <!-- PARTE 1 -->
-                <div class="col-2 m-0 p-0"  id="album1">
+                <div class="col-2 m-0 p-0 "  id="album1">
                     <img class="w-100" src="layout/Álbuns - Músicas/ab6761610000e5ebd8b9980db67272cb4d2c3daf.jpg" alt="">
                     <p>Loirinha - music</p>
                 </div>
@@ -124,7 +124,42 @@
     </main>
 
 
-    <footer></footer>
+    <footer>
+      <!-- lateral esquerda player -->
+        <div class="playerMusic container-fluid py-3">
+          <div id="imageMusic">
+            <img src="layout/Álbuns - Músicas/ab67616d0000b2734714f11987b7ddddf897ce98.jpg" alt="">
+          </div>
+          <div id="dadosMusic">
+            <p>LALALALA - INSTRUMENTAL</p>
+            <p>Cantor - Fulano</p>
+          </div>
+          <div id="acrescente">
+            <img src="layout/Icones/add_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+          </div>
+
+        <!-- meio player -->
+        <div id="iconesPLAYER">
+          <div id="iconesPLAYERmini">
+            <img src="layout/Icones/arrow-down-circle.svg" alt="download">
+            <img src="layout/Icones/play-circle-fill.svg" alt="play">
+            <img src="layout/Icones/volume-down-fill.svg" alt="diminuirvolume">
+            <img src="layout/Icones/volume-up-fill.svg" alt="diminuirvolume">
+          </div>
+          <!-- barra -->
+          <div id="barra">
+            <hr>
+          </div>
+
+          
+        </div>
+
+
+
+      </div>
+
+    </footer>
+
 
     <script src="script/bootstrap.bundle.min.js"></script>
 
