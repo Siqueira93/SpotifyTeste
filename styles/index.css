@@ -40,8 +40,9 @@ body{
 .playerMusic{
     background-color: black; 
     display: flex;
-
+    gap: 30px;
 }
+
 
 #imageMusic img {
     height: 80px;
@@ -49,7 +50,18 @@ body{
 
 hr{
     color: #ffffff;
+    width: 500px;
+    
 }
-#iconesPLAYERmini img{
-    gap:50px;
+
+#iconesPLAYERmini {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra {
+    width: 100vh;
 }
