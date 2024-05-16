@@ -45,9 +45,9 @@ body{
 .playerMusic{
     background-color: black; 
     display: flex;
-    justify-content: space-around;
 
 }
+
 
 #imageMusic img {
     height: 80px;
@@ -56,9 +56,6 @@ body{
 hr{
     color: #ffffff;
 }
-#iconesPLAYER {
-    display: flex;
-    justify-content: center;
-
-
+#iconesPLAYERmini img{
+    gap:50px;
 }
